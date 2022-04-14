@@ -22,7 +22,7 @@ const Home = () => {
 				textbtn="Example button"
 			/>
 			<Cards />
-			<Footer title="Cop" />
+			<Footer title="Copyright" />
 		</>
 	);
 };
