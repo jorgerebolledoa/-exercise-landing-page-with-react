@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ju = () => {
+const Jumbotron = () => {
 	return (
 		<div className="p-5 mb-4 bg-light rounded-3">
 			<div className="container-fluid py-5">
@@ -18,4 +18,4 @@ const Ju = () => {
 		</div>
 	);
 };
-export default Ju;
+export default Jumbotron;

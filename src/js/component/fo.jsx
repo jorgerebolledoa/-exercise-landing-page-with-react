@@ -1,10 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Fo = () => {
+const Footer = (props) => {
 	return (
 		<div className="p-3  bg-dark  text-center">
-			<div className="text-white">copyright</div>
+			<div className="text-white">{props.title}</div>
 		</div>
 	);
 };
-export default Fo;
+Footer.propTypes = {
+	title: PropTypes.string,
+};
+export default Footer;
